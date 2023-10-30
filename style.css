@@ -1,0 +1,28 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5% ;
+    /* 62.5% é equivalente a 10px */
+}
+
+nav{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 2rem auto 0 auto;
+    background-color: brown;
+}
+
+nav > ul{
+    display: flex;
+    gap: 2rem;
+}
