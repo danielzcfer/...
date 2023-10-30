@@ -6,23 +6,58 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
 html{
     font-size: 62.5% ;
     /* 62.5% é equivalente a 10px */
 }
-
+header{
+    background-color: blue;
+}
 nav{
     font-size: 1.7rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
-    margin: 2rem auto 0 auto;
-    background-color: brown;
+    width: 70%;
+    margin: 0 auto;
 }
-
 nav > ul{
     display: flex;
     gap: 2rem;
+    color: white;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 3rem;
+    height: 50rem;
+}
+.botão{
+    background-color: #feb300;
+    border-radius: .5rem;
+    padding: 2rem 2.5rem;
+    margin: 3rem auto;
+}
+.cor1{
+    color: white;
+}
+.fonte1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.fonte2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.fonte3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+.fonte4{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-style: italic;
 }
