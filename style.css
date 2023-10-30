@@ -1,3 +1,5 @@
+/* BANNER */
+
 *{
     border: 0;
     margin: 0;
@@ -5,10 +7,6 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-}
-html{
-    font-size: 62.5% ;
-    /* 62.5% é equivalente a 10px */
 }
 header{
     background: url(https://cdn.pixabay.com/photo/2021/09/07/07/11/game-console-6603120_1280.jpg);
@@ -29,7 +27,7 @@ nav > ul{
     gap: 2rem;
     color: white;
 }
-#banner{
+.banner{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,6 +41,13 @@ nav > ul{
     border-radius: .5rem;
     padding: 2rem 2.5rem;
     margin: 3rem auto;
+}
+
+/* GERAL */
+
+html{
+    font-size: 62.5% ;
+    /* 62.5% é equivalente a 10px */
 }
 .cor1{
     color: white;
