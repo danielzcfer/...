@@ -79,9 +79,23 @@ nav > ul{
     justify-content: center;
     align-items: center;
     padding: 10rem;
-    gap: 5rem;
+    gap: 7.5rem;
 }
-
+.portBlocos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    gap: 2.5rem;
+}
+.portBlocosOrg{
+    display: grid;
+    gap: 5rem 5rem;
+    grid-template-columns: auto auto auto;
+    padding: 0 5rem;
+}
 /* GERAL */
 
 *{
