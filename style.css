@@ -46,12 +46,6 @@ nav > ul{
     padding: 10rem;
     gap: 5rem;
 }
-.servTextOrg{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .servBlocosOrg{
     display: flex;
     justify-content: center;
@@ -69,17 +63,23 @@ nav > ul{
     width: 33%;
     gap: 2.5rem;
 }
-.tituloServ{
-    font-size: 3rem;
-}
-.descServ{
-    font-size: 1.5rem;
-}
 .icon{
     color: white;
     background-color: #feb300;
     border-radius: 100%;
     padding: 2rem;
+}
+
+/* PORTIFÓLIO */
+
+.portifolio{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    gap: 5rem;
 }
 
 /* GERAL */
@@ -95,6 +95,19 @@ nav > ul{
 html{
     font-size: 62.5% ;
     /* 62.5% é equivalente a 10px */
+}
+.textOrg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.tituloServ{
+    font-size: 3rem;
+}
+.descServ{
+    font-size: 1.5rem;
 }
 .cor1{
     color: white;
