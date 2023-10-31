@@ -46,7 +46,7 @@ nav > ul{
     padding: 10rem;
     gap: 5rem;
 }
-.servOrg{
+.servTextOrg{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,17 +54,20 @@ nav > ul{
 }
 .servBlocosOrg{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 50%;
+    align-items: baseline;
+    margin: 0 20rem;
     gap: 5rem;
 }
 .servBlocos{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 1.5rem;
+    width: 33%;
+    gap: 2.5rem;
 }
 .tituloServ{
     font-size: 3rem;
@@ -76,7 +79,7 @@ nav > ul{
     color: white;
     background-color: #feb300;
     border-radius: 100%;
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 /* GERAL */
