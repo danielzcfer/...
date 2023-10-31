@@ -1,13 +1,5 @@
 /* BANNER */
 
-*{
-    border: 0;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-}
 header{
     background: url(https://cdn.pixabay.com/photo/2021/09/07/07/11/game-console-6603120_1280.jpg);
     background-repeat: no-repeat;
@@ -43,14 +35,69 @@ nav > ul{
     margin: 3rem auto;
 }
 
+/* SERVIÇOS */
+
+.serviços{
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    gap: 5rem;
+}
+.servOrg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.servBlocosOrg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 5rem;
+}
+.servBlocos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.tituloServ{
+    font-size: 3rem;
+}
+.descServ{
+    font-size: 1.5rem;
+}
+.icon{
+    color: white;
+    background-color: #feb300;
+    border-radius: 100%;
+    padding: 1.5rem;
+}
+
 /* GERAL */
 
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
 html{
     font-size: 62.5% ;
     /* 62.5% é equivalente a 10px */
 }
 .cor1{
     color: white;
+}
+.cor2{
+    color: #808080;
 }
 .fonte1{
     font-family: 'Roboto', sans-serif;
