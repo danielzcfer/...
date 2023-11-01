@@ -46,13 +46,6 @@ nav > ul{
     padding: 10rem;
     gap: 5rem;
 }
-.servBlocosOrg{
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    margin: 0 20rem;
-    gap: 5rem;
-}
 .servBlocos{
     display: flex;
     flex-direction: column;
@@ -79,16 +72,7 @@ nav > ul{
     justify-content: center;
     align-items: center;
     padding: 10rem;
-    gap: 7.5rem;
-}
-.portBlocos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.5rem;
-    gap: 2.5rem;
+    gap: 5rem;
 }
 .portBlocosOrg{
     display: grid;
@@ -101,6 +85,46 @@ nav > ul{
 
 .sobre{
     background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    gap: 5rem;
+}
+
+/* TIME */
+
+.time{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    gap: 5rem;
+}
+.timeTextOrg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgPessoa{
+    border-radius: 100%;
+    width: 75%;
+    height: 75%;
+}
+.imgRedes{
+    background-color: #c500fe;
+    border-radius: 25%;
+    padding: 1rem;
+    width: 15%;
+    height: 15%;
+}
+.redesOrg{
+    display: flex;
+    gap: 2rem;
 }
 
 /* GERAL */
@@ -123,6 +147,22 @@ html{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+.blocosOrg{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 0 20rem;
+    gap: 5rem;
+}
+.blocos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    gap: 2.5rem;
 }
 .tituloServ{
     font-size: 3rem;
