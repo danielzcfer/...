@@ -138,6 +138,19 @@ nav > ul{
     gap: 2rem;
 }
 
+/* PARCEIROS */
+
+.parceiros{
+    background-color: #131313;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.parceirosImg{
+    width: 10%;
+    height: 10%;
+}
+
 /* GERAL */
 
 *{
