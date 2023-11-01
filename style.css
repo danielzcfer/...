@@ -28,12 +28,6 @@ nav > ul{
     font-size: 3rem;
     height: 55rem;
 }
-.botão{
-    background-color: #feb300;
-    border-radius: .5rem;
-    padding: 2rem 2.5rem;
-    margin: 3rem auto;
-}
 
 /* SERVIÇOS */
 
@@ -150,6 +144,50 @@ nav > ul{
     width: 10%;
     height: 10%;
 }
+.parceirosImgOrg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* CONTATO */
+
+.contato{
+    background: url(https://files.cults3d.com/uploaders/14574880/illustration-file/a457d24e-afca-412b-a57e-c94fa123dad6/pixelworldmap6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -25rem;
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    gap: 5rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+.formText{
+    padding: 1.6rem;
+    inline-size: 125%;
+}
 
 /* GERAL */
 
@@ -187,6 +225,12 @@ html{
     text-align: center;
     font-size: 1.5rem;
     gap: 2.5rem;
+}
+.botão{
+    background-color: #feb300;
+    border-radius: .5rem;
+    padding: 2rem 2.5rem;
+    margin: 3rem auto;
 }
 .tituloServ{
     font-size: 3rem;
