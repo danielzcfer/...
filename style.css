@@ -214,6 +214,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: baseline;
+    width: 80%;
     margin: 0 20rem;
     gap: 5rem;
 }
@@ -234,9 +235,11 @@ html{
 }
 .tituloServ{
     font-size: 3rem;
+    text-align: center;
 }
 .descServ{
     font-size: 1.5rem;
+    text-align: center;
 }
 .cor1{
     color: white;
