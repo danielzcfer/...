@@ -129,6 +129,7 @@ nav > ul{
 }
 .redesOrg{
     display: flex;
+    justify-content: center;
     gap: 2rem;
 }
 
@@ -189,6 +190,32 @@ nav > ul{
     inline-size: 125%;
 }
 
+/* PES */
+
+.pes{
+    background-color: #131313;
+    padding: 2rem;
+}
+.pesOrg{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.pesImgRedes{
+    background-color: #c500fe;
+    border-radius: 25%;
+    padding: 1rem;
+    width: 6%;
+    height: 6%;
+}
+.pesTextOrg{
+    display: flex;
+    gap: 1rem;
+    width: 50rem;
+}
+
 /* GERAL */
 
 *{
@@ -246,6 +273,9 @@ html{
 }
 .cor2{
     color: #808080;
+}
+.cor3{
+    color: #feb300;
 }
 .fonte1{
     font-family: 'Roboto', sans-serif;
