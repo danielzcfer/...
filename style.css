@@ -4,7 +4,8 @@ header{
     background: url(https://cdn.pixabay.com/photo/2021/09/07/07/11/game-console-6603120_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -25rem;
+    background-position-x: center;
+    background-position-y: center;
 }
 nav{
     font-size: 1.7rem;
@@ -26,6 +27,7 @@ nav > ul{
     align-items: center;
     gap: 2rem;
     font-size: 3rem;
+    text-align: center;
     height: 55rem;
 }
 
@@ -199,7 +201,8 @@ nav > ul{
     background: url(https://files.cults3d.com/uploaders/14574880/illustration-file/a457d24e-afca-412b-a57e-c94fa123dad6/pixelworldmap6.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -25rem;
+    background-position-x: center;
+    background-position-y: center;
     display: flex;
     flex-direction: column;
     padding: 10rem;
@@ -333,7 +336,4 @@ html{
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-style: italic;
-}
-.imagens{
-    color: #ffffff;
 }
