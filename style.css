@@ -105,10 +105,9 @@ nav > ul{
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    z-index: 1;
 }
 .linha{
-    height: 100rem;
+    height: 150%;
     border: .25rem solid #c500fe;
     position: absolute;
 }
@@ -116,10 +115,12 @@ nav > ul{
     display: flex;
     flex-direction: row-reverse;
     gap: 2rem;
+    z-index: 1;
 }
 .template2{
     display: flex;
     gap: 2rem;
+    z-index: 1;
 }
 .templateImg{
     padding: 1rem;
@@ -127,6 +128,7 @@ nav > ul{
     background-color: #c500fe;
     width: 15%;
     height: 15%;
+    z-index: 1;
 }
 .templateText{
     width: 40.75%;
