@@ -293,6 +293,15 @@ html {
   font-size: 1.5rem;
   gap: 2.5rem;
 }
+.blocosOrg,
+span {
+  transition: 0.5s;
+}
+
+span:hover {
+  transform: scale(1.25);
+  cursor: none;
+}
 .botão {
   background-color: #feb300;
   border-radius: 0.5rem;
